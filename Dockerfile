@@ -10,7 +10,8 @@ LABEL "homepage"="https://github.com/snowkelus/sven"
 LABEL "maintainer"="snowkelus"
 
 RUN apk --no-cache add openssl git curl openssh-client bash
-    
+
+RUN chmod o+x entrypoint.sh
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
