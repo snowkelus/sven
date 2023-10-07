@@ -11,8 +11,8 @@ LABEL "maintainer"="snowkelus"
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
-COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT [ "/entrypoint.sh" ]
+COPY sven.sh /sven.sh
+ENTRYPOINT [ "/sven.sh" ]
 
 RUN echo CWD `pwd` \
     && mkdir /tmp/lfs \
