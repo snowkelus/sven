@@ -11,7 +11,6 @@ LABEL "maintainer"="snowkelus"
 
 RUN apk --no-cache add openssl git curl openssh-client bash
 
-RUN chmod +x entrypoint.sh
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT [ "/entrypoint.sh" ]
 
