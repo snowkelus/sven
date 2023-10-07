@@ -26,6 +26,6 @@ git lfs install
 git checkout ${BRANCH_NAME}
 git add -A
 timestamp=$(date -u)
-git commit -m "Deploying the Code to your Repository: ${timestamp} ${GITHUB_SHA}" || exit 0
+git commit -m "Deploying Repository Code: ${timestamp} ${GITHUB_SHA}" || exit 0
 git pull --rebase publisher ${BRANCH_NAME}
 git push publisher ${BRANCH_NAME}
