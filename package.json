@@ -1,0 +1,23 @@
+{
+  "name": "sven",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "dockerlint Dockerfile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowkelus/sven.git"
+  },
+  "keywords": [],
+  "author": "Snowkelus <openpatents@snowkel.us> (https://www.snowkel.us/)",
+  "license": "(GPL 3.0)",
+  "bugs": {
+    "url": "https://github.com/snowkelus/sven/issues"
+  },
+  "homepage": "https://github.com/snowkelus/sven#readme",
+  "dependencies": {
+    "dockerlint": "^0.3.9"
+  }
+}
