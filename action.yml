@@ -1,5 +1,5 @@
 name: 'Snowkelus'
-description: 'GitHub Action to start a http server that serves files..'
+description: 'GitHub Action Container to Automate Github README, and also other things like an Aggregator for example..'
 author: 'Snowkelus <openpatents@snowkel.us>'
 branding:
   icon: 'server'
