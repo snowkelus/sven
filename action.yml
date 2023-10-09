@@ -6,3 +6,4 @@ branding:
   color: 'orange'
 runs:
   using: 'node16'
+  entrypoint: 'sven.sh'
