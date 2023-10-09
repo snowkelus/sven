@@ -14,7 +14,9 @@ git config http.sslVerify false
 git config user.name "Snowkelus"
 git config user.email "actions@users.noreply.github.com"
 git remote add publisher "${remote_repo}"
-git show-ref#Debugging Purposes..
+#Debugging Purposes..
+git show-ref
+#Debugging Purposes..
 git branch --verbose
 
 git lfs install
