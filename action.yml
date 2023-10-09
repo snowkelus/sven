@@ -4,6 +4,16 @@ author: 'Snowkelus <openpatents@snowkel.us>'
 branding:
   icon: 'server'
   color: 'orange'
+inputs:
+  sven:  # id of input
+    description: 'Sven, Greetings!'
+    required: true
+    default: 'Hello, World!'
+outputs:
+  greets:
+    description: 'Greetings!'
 runs:
-  using: 'node16'
-  entrypoint: 'sven.sh'
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.sven }}
