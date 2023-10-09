@@ -5,7 +5,7 @@ branding:
   icon: 'server'
   color: 'orange'
 inputs:
-  sven:  # id of input
+  sven:
     description: 'Sven, Greetings!'
     required: true
     default: 'Hello, World!'
