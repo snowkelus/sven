@@ -3,4 +3,6 @@ description: 'GitHub Action to start a http server that serves files..'
 author: 'Snowkelus <openpatents@snowkel.us>'
 branding:
   icon: 'server'
-  color: 'blue'
+  color: 'orange'
+runs:
+  using: 'node16'
